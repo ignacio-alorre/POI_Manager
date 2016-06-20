@@ -1,0 +1,94 @@
+body
+{ background: #FFFFFF url(back.png) repeat;
+  color: #57696F;
+}
+
+blockquote
+{ background: #FFFFFF;
+  color: #57696F;
+  border-color: #E11E1E;
+}
+
+#main
+{ background: #FFFFFF url(main.png) repeat-y;
+  color: #57696F;
+}
+
+#links, #footer
+{ background: #E11E1E url(linkfoot.png);
+  color: #FFFFFF;
+  border-color: #57696F;
+}
+
+#links a, #footer a, #links a:hover, #footer a:hover
+{ background: transparent;
+  color: #FFFFFF;
+}
+
+#logo
+{ background: #FFFFFF url(logo.jpg) no-repeat;
+  color: #57696F;
+  border-top-color: #57696F;
+  border-bottom-color: #E11E1E;
+}
+
+#logo h2
+{ background: transparent;
+  color: #CCC;
+}
+
+h1
+{ background: transparent;
+  color: #E11E1E;
+  border-color: #E1E1E1;
+}
+
+#menu
+{ background: transparent;
+  color: #57696F;
+}
+
+#menu li a
+{ background: #FF4D4D;
+  color: #57696F;
+  border-color: #E11E1E;
+}
+
+#menu li a:hover, #menu li a#selected, #menu li a#selected:hover
+{ background: #E11E1E;
+  color: #FFFFFF;
+} 
+
+#content, #column2, #column2 a
+{ background: #FFFFFF;
+  color: #57696F;
+  border-color: #57696F;
+}
+
+#column2 a:hover
+{ background: #FFFFFF;
+  color: #E11E1E;
+  border-color: #E11E1E;
+}
+
+.sidebaritem
+{ background: #F9F9F9;
+  color: #57696F;
+  border-color: #E1E1E1;
+}
+
+.sbilinks li a, .sidebaritem a
+{ background: transparent url(link_arrow.png) no-repeat left center;
+  color: #57696F;
+} 
+
+.sbilinks li a:hover, .sidebaritem a:hover
+{ background: transparent url(link_arrow_sel.png) no-repeat left center;
+  color: #E11E1E;
+} 
+
+input, textarea
+{ background: #FFFFFF;
+  color: #57696F;
+  border-color: #E1E1E1;
+}
